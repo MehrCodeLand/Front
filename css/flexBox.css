@@ -1,0 +1,135 @@
+.continer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px ;
+}
+.div-1 {
+    background-color: lightcoral;
+}
+.div-2 {
+    background-color: lightskyblue ;
+}
+
+
+.continer2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px ;
+    margin-bottom: 50px ;
+}
+.div2-1 {
+    background-color: lightgreen;
+    flex: 1 ;
+}
+.div2-2 {
+    background-color:  lightblue;
+    width: 100px ;
+}
+.div2-3 {
+    background-color: lightgreen;
+    flex: 3;
+}
+
+
+.header-div {
+    height: 100px ;
+    flex-direction: row;
+    display: flex;
+    border: solid 1px black;
+    background-color: lightgrey;
+    align-items: stretch;
+}
+.media1 {
+    flex: 1;
+    background-color: lightblue;
+}
+.media2 {
+    flex: 1 ;
+    background-color: lightgreen;
+}
+.media3 {
+    background-color: lightsalmon;
+    flex: 1;
+}
+
+
+.ex-divs {
+    margin-top: 10px ;
+    margin-bottom: 50px ;
+    display: flex;
+    height: 100px  ;
+    flex-direction: row;
+    border: solid 2px black ;
+    background-color: lightgrey;
+}
+.ex-div1 {
+    width: 100px ;
+    background-color: lightgray;
+}
+.ex-div2 {
+    flex: 2;
+    background-color: lightseagreen;
+}
+.ex-div3 {
+    background-color: lightgoldenrodyellow;
+    width: 150px ;
+}
+
+.ex2-divs {
+    margin-top: 10px ;
+    margin-bottom: 50px ;
+    display: flex;
+    height: 100px  ;
+    flex-direction: row;
+    border: solid 2px black ;
+    background-color: lightgrey;
+    justify-content: space-between;
+}
+.ex2-div1 {
+    width: 50px ;
+    background-color: rgb(255, 218, 218);
+}
+.ex2-div2 {
+    width: 50px ;
+    background-color: lightseagreen;
+}
+.ex2-div3 {
+    background-color: lightgoldenrodyellow;
+    width: 50px ;
+}
+.ex2-div4 {
+    background-color: lightpink;
+    width: 50px ;
+}
+
+
+.container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    width: 300px;
+    border-radius: 6px;
+  }
+  
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  .notifications {
+    background-color: rgb(49, 109, 245);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+  }
