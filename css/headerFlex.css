@@ -1,0 +1,60 @@
+
+body {
+    margin: 0 ;
+}
+
+
+
+/* importent things */
+.header {
+    background-color: lightgray ;
+    height: 55px ;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+.left-section {
+    flex: 1;
+    background-color: lightblue;
+    max-width: 200px ;
+    text-align: center;
+}
+.middle-section {
+    flex: 2;
+    background-color: lightgreen;
+    margin-left: 50px ;
+    margin-right: 35px ;
+    text-align: center;
+    max-width: 600px ;
+}
+.home {
+    font-size: 15px ;
+    padding: 4px ;
+}
+
+.search-bar {
+    font-size: 15px ;
+    padding: 10px 15px ;
+    border-radius: 30px  ;
+    border: none ;
+    width: 400px ;
+    margin-top: 5px ;
+    margin: 6px 10px ;
+}
+.right-section {
+    flex: 1 ;
+    max-width: 350px ;
+    background-color: lightcoral;
+    display: flex;
+}
+.right-btn {
+    padding: 7px 12px ;
+    max-height: 35px ;
+    max-width: 150px ;
+    flex: 1;
+    margin-left: 5px ;
+    margin-top: 8px ;
+}
