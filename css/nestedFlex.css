@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px ;
+    text-align: center;
+}
+.left-section {
+    background-color: lightblue;
+    flex: 1;
+}
+.right-section  {
+    background-color: lightgreen;
+    flex: 1 ;
+}
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightskyblue;
+    flex: 3;
+}
+.search-bar {
+    margin: 25px 15px ;
+    border: none ;
+    border-radius: 30px ;
+    padding-left: 15px ;
+    font-size: 16px ;
+    flex: 1;
+    max-width: 350px ;
+    max-height: 50px ;
+}
+.fa-solid {
+    zoom: 1.2;
+}
